@@ -1,0 +1,33 @@
+{
+  "artists": {
+    "coolwip": [
+      "0521DE20-0230-477A-8ED9-ABCF1295B3D9.PNG",
+      "IMG_2611 2.JPG",
+      "IMG_6472 3.PNG",
+      "IMG_7485.JPG",
+      "IMG_8567.WEBP",
+      "IMG_9059 2.PNG",
+      "ISIMG-928011.JPG",
+      "ISIMG-928371.JPG",
+      "New Project (12) 3.jpg",
+      "New Project (13) 2.JPG",
+      "coolwip2 3.jpg",
+      "gundam 2.jpg",
+      "no-vox.JPG",
+      "start up lol (1) 2.JPG",
+      "usopp 2.jpg",
+      "wobbwoo coolwip 3.jpg",
+      "yeeee2 (5) 2.jpg"
+    ],
+    "earthbound": [
+      "Photo Jun 27 2025, 8 54 12 PM (1).png",
+      "Photo Jun 27 2025, 8 54 12 PM (2).png",
+      "Photo Jun 27 2025, 8 54 12 PM (3).png",
+      "Photo Jun 27 2025, 8 54 12 PM (4) (1).png",
+      "Photo Jun 27 2025, 8 54 12 PM (4).png",
+      "Photo Jun 27 2025, 8 54 12 PM (6).png",
+      "Photo Jun 27 2025, 8 54 12 PM (8).png"
+    ]
+  },
+  "note": "Original filenames retained. URLs should percent-encode each filename segment."
+}
