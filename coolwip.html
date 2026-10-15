@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090710">
+<title>COOLWIP</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}html,body{margin:0;min-height:100%;overflow-x:hidden}body{font-family:Arial,Helvetica,sans-serif;background:#090710;color:white}.stage{position:relative;display:grid;place-items:center;min-height:100svh;isolation:isolate;overflow:hidden}.gradient{position:absolute;inset:-25%;z-index:-3;background:radial-gradient(ellipse 36% 45% at 25% 30%,#a653e9 0%,transparent 80%),radial-gradient(ellipse 42% 38% at 75% 38%,#42b6c5 0%,transparent 80%),radial-gradient(ellipse 45% 45% at 45% 77%,#e76ca5 0%,transparent 80%),radial-gradient(ellipse 45% 40% at 75% 80%,#4643aa 0%,transparent 85%),#101024;filter:blur(42px) saturate(1.4);animation:drift 19s ease-in-out infinite alternate}.gradient:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 35% 35% at 55% 42%,#ffcc87 0%,transparent 90%);mix-blend-mode:screen;animation:drift2 15s ease-in-out infinite alternate}.grain{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.13;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E")}.snoopy{display:block;width:min(74vw,650px);max-height:85svh;object-fit:contain;filter:drop-shadow(0 18px 30px #08061240);animation:float 6s ease-in-out infinite}.fallback{display:none;text-align:center;font-size:clamp(42px,9vw,110px);font-weight:900;letter-spacing:-.07em}.missing .fallback{display:block}.missing .snoopy{display:none}@keyframes drift{0%{transform:translate(-4%,-2%) rotate(-9deg) scale(1.08)}50%{transform:translate(4%,3%) rotate(9deg) scale(1.13)}100%{transform:translate(-2%,5%) rotate(-5deg) scale(1.06)}}@keyframes drift2{from{transform:translate(-12%,8%) scale(.85)}to{transform:translate(13%,-12%) scale(1.2)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}@media(prefers-reduced-motion:reduce){*,*:after{animation:none!important}}
+</style>
+</head>
+<body>
+<main class="stage" id="stage">
+<div class="gradient" aria-hidden="true"></div><div class="grain" aria-hidden="true"></div>
+<img class="snoopy" src="assets/coolwip/snoopy.png" alt="Snoopy carrying a pastel ice cream cone" onerror="document.getElementById('stage').classList.add('missing')">
+<div class="fallback">COOLWIP</div>
+</main>
+</body>
+</html>
